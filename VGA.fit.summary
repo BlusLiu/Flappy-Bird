@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Jun 18 19:13:06 2018
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : VGA
+Top-level Entity Name : gold
+Family : Cyclone III
+Device : EP3C10E144C8
+Timing Models : Final
+Total logic elements : 1,365 / 10,320 ( 13 % )
+    Total combinational functions : 1,356 / 10,320 ( 13 % )
+    Dedicated logic registers : 348 / 10,320 ( 3 % )
+Total registers : 348
+Total pins : 9 / 95 ( 9 % )
+Total virtual pins : 0
+Total memory bits : 338,760 / 423,936 ( 80 % )
+Embedded Multiplier 9-bit elements : 0 / 46 ( 0 % )
+Total PLLs : 1 / 2 ( 50 % )

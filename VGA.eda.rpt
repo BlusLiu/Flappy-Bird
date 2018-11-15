@@ -1,0 +1,111 @@
+EDA Netlist Writer report for VGA
+Mon Jun 18 19:13:16 2018
+Quartus II Version 9.1 Build 222 10/21/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. EDA Netlist Writer Summary
+  3. Simulation Settings
+  4. Simulation Generated Files
+  5. EDA Netlist Writer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------+
+; EDA Netlist Writer Summary                                        ;
++---------------------------+---------------------------------------+
+; EDA Netlist Writer Status ; Successful - Mon Jun 18 19:13:16 2018 ;
+; Revision Name             ; VGA                                   ;
+; Top-level Entity Name     ; gold                                  ;
+; Family                    ; Cyclone III                           ;
+; Simulation Files Creation ; Successful                            ;
++---------------------------+---------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Simulation Settings                                                                                                           ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+; Option                                                                                            ; Setting                   ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+; Tool Name                                                                                         ; ModelSim-Altera (Verilog) ;
+; Generate netlist for functional simulation only                                                   ; Off                       ;
+; Time scale                                                                                        ; 1 ns                      ;
+; Truncate long hierarchy paths                                                                     ; Off                       ;
+; Map illegal HDL characters                                                                        ; Off                       ;
+; Flatten buses into individual nodes                                                               ; Off                       ;
+; Maintain hierarchy                                                                                ; Off                       ;
+; Bring out device-wide set/reset signals as ports                                                  ; Off                       ;
+; Enable glitch filtering                                                                           ; Off                       ;
+; Do not write top level VHDL entity                                                                ; Off                       ;
+; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off                       ;
+; Architecture name in VHDL output netlist                                                          ; structure                 ;
+; Generate third-party EDA tool command script for RTL functional simulation                        ; Off                       ;
+; Generate third-party EDA tool command script for gate-level simulation                            ; Off                       ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+
+
++----------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                               ;
++----------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                          ;
++----------------------------------------------------------------------------------------------------------+
+; C:/Users/liuzhen/Desktop/大作业/flappy bird无win - 副本/simulation/modelsim/VGA_8_1200mv_85c_slow.vo     ;
+; C:/Users/liuzhen/Desktop/大作业/flappy bird无win - 副本/simulation/modelsim/VGA_8_1200mv_0c_slow.vo      ;
+; C:/Users/liuzhen/Desktop/大作业/flappy bird无win - 副本/simulation/modelsim/VGA_min_1200mv_0c_fast.vo    ;
+; C:/Users/liuzhen/Desktop/大作业/flappy bird无win - 副本/simulation/modelsim/VGA.vo                       ;
+; C:/Users/liuzhen/Desktop/大作业/flappy bird无win - 副本/simulation/modelsim/VGA_8_1200mv_85c_v_slow.sdo  ;
+; C:/Users/liuzhen/Desktop/大作业/flappy bird无win - 副本/simulation/modelsim/VGA_8_1200mv_0c_v_slow.sdo   ;
+; C:/Users/liuzhen/Desktop/大作业/flappy bird无win - 副本/simulation/modelsim/VGA_min_1200mv_0c_v_fast.sdo ;
+; C:/Users/liuzhen/Desktop/大作业/flappy bird无win - 副本/simulation/modelsim/VGA_v.sdo                    ;
++----------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------+
+; EDA Netlist Writer Messages ;
++-----------------------------+
+Info: *******************************************************************
+Info: Running Quartus II EDA Netlist Writer
+    Info: Version 9.1 Build 222 10/21/2009 SJ Full Version
+    Info: Processing started: Mon Jun 18 19:13:14 2018
+Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off VGA -c VGA
+Warning: An incorrect timescale is selected for the Verilog Output (.VO) file of this PLL design. It's required that the timescale should be 1 ps when simulating a PLL design in a third party EDA tool.
+Info: Generated file VGA_8_1200mv_85c_slow.vo in folder "C:/Users/liuzhen/Desktop/大作业/flappy bird无win - 副本/simulation/modelsim/" for EDA simulation tool
+Warning: An incorrect timescale is selected for the Verilog Output (.VO) file of this PLL design. It's required that the timescale should be 1 ps when simulating a PLL design in a third party EDA tool.
+Info: Generated file VGA_8_1200mv_0c_slow.vo in folder "C:/Users/liuzhen/Desktop/大作业/flappy bird无win - 副本/simulation/modelsim/" for EDA simulation tool
+Warning: An incorrect timescale is selected for the Verilog Output (.VO) file of this PLL design. It's required that the timescale should be 1 ps when simulating a PLL design in a third party EDA tool.
+Info: Generated file VGA_min_1200mv_0c_fast.vo in folder "C:/Users/liuzhen/Desktop/大作业/flappy bird无win - 副本/simulation/modelsim/" for EDA simulation tool
+Warning: An incorrect timescale is selected for the Verilog Output (.VO) file of this PLL design. It's required that the timescale should be 1 ps when simulating a PLL design in a third party EDA tool.
+Info: Generated file VGA.vo in folder "C:/Users/liuzhen/Desktop/大作业/flappy bird无win - 副本/simulation/modelsim/" for EDA simulation tool
+Info: Generated file VGA_8_1200mv_85c_v_slow.sdo in folder "C:/Users/liuzhen/Desktop/大作业/flappy bird无win - 副本/simulation/modelsim/" for EDA simulation tool
+Info: Generated file VGA_8_1200mv_0c_v_slow.sdo in folder "C:/Users/liuzhen/Desktop/大作业/flappy bird无win - 副本/simulation/modelsim/" for EDA simulation tool
+Info: Generated file VGA_min_1200mv_0c_v_fast.sdo in folder "C:/Users/liuzhen/Desktop/大作业/flappy bird无win - 副本/simulation/modelsim/" for EDA simulation tool
+Info: Generated file VGA_v.sdo in folder "C:/Users/liuzhen/Desktop/大作业/flappy bird无win - 副本/simulation/modelsim/" for EDA simulation tool
+Info: Quartus II EDA Netlist Writer was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 239 megabytes
+    Info: Processing ended: Mon Jun 18 19:13:16 2018
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:03
+
+

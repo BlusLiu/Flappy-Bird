@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Jun 18 19:12:59 2018
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : VGA
+Top-level Entity Name : gold
+Family : Cyclone III
+Total logic elements : 1,395
+    Total combinational functions : 1,356
+    Dedicated logic registers : 348
+Total registers : 348
+Total pins : 9
+Total virtual pins : 0
+Total memory bits : 338,760
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

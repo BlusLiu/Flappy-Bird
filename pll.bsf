@@ -1,0 +1,107 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 312 216)
+	(text "pll" (rect 149 1 166 20)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 197 31 212)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "inclk0" (rect 0 0 40 16)(font "Arial" (font_size 8)))
+		(text "inclk0" (rect 4 56 38 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 56 72)(line_width 1))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "areset" (rect 0 0 42 16)(font "Arial" (font_size 8)))
+		(text "areset" (rect 4 80 40 96)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 56 96)(line_width 1))
+	)
+	(port
+		(pt 312 72)
+		(output)
+		(text "c0" (rect 0 0 16 16)(font "Arial" (font_size 8)))
+		(text "c0" (rect 295 56 309 72)(font "Arial" (font_size 8)))
+		(line (pt 312 72)(pt 256 72)(line_width 1))
+	)
+	(port
+		(pt 312 96)
+		(output)
+		(text "c1" (rect 0 0 16 16)(font "Arial" (font_size 8)))
+		(text "c1" (rect 295 80 309 96)(font "Arial" (font_size 8)))
+		(line (pt 312 96)(pt 256 96)(line_width 1))
+	)
+	(port
+		(pt 312 120)
+		(output)
+		(text "c2" (rect 0 0 16 16)(font "Arial" (font_size 8)))
+		(text "c2" (rect 295 104 309 120)(font "Arial" (font_size 8)))
+		(line (pt 312 120)(pt 256 120)(line_width 1))
+	)
+	(port
+		(pt 312 144)
+		(output)
+		(text "locked" (rect 0 0 44 16)(font "Arial" (font_size 8)))
+		(text "locked" (rect 271 128 309 144)(font "Arial" (font_size 8)))
+		(line (pt 312 144)(pt 256 144)(line_width 1))
+	)
+	(drawing
+		(text "Cyclone III" (rect 237 198 285 212)(font "Arial" ))
+		(text "inclk0 frequency: 20.000 MHz" (rect 66 67 209 81)(font "Arial" ))
+		(text "Operation Mode: Normal" (rect 66 84 181 98)(font "Arial" ))
+		(text "Clk " (rect 67 111 84 125)(font "Arial" ))
+		(text "Ratio" (rect 93 111 117 125)(font "Arial" ))
+		(text "Ph (dg)" (rect 127 111 162 125)(font "Arial" ))
+		(text "DC (%)" (rect 172 111 207 125)(font "Arial" ))
+		(text "c0" (rect 71 129 83 143)(font "Arial" ))
+		(text "5/4" (rect 99 129 114 143)(font "Arial" ))
+		(text "0.00" (rect 135 129 156 143)(font "Arial" ))
+		(text "50.00" (rect 177 129 204 143)(font "Arial" ))
+		(text "c1" (rect 71 147 83 161)(font "Arial" ))
+		(text "5/2" (rect 99 147 114 161)(font "Arial" ))
+		(text "0.00" (rect 135 147 156 161)(font "Arial" ))
+		(text "50.00" (rect 177 147 204 161)(font "Arial" ))
+		(text "c2" (rect 71 165 83 179)(font "Arial" ))
+		(text "5/1" (rect 99 165 114 179)(font "Arial" ))
+		(text "0.00" (rect 135 165 156 179)(font "Arial" ))
+		(text "50.00" (rect 177 165 204 179)(font "Arial" ))
+		(line (pt 0 0)(pt 313 0)(line_width 1))
+		(line (pt 313 0)(pt 313 217)(line_width 1))
+		(line (pt 0 217)(pt 313 217)(line_width 1))
+		(line (pt 0 0)(pt 0 217)(line_width 1))
+		(line (pt 64 108)(pt 214 108)(line_width 1))
+		(line (pt 64 125)(pt 214 125)(line_width 1))
+		(line (pt 64 143)(pt 214 143)(line_width 1))
+		(line (pt 64 161)(pt 214 161)(line_width 1))
+		(line (pt 64 179)(pt 214 179)(line_width 1))
+		(line (pt 64 108)(pt 64 179)(line_width 1))
+		(line (pt 90 108)(pt 90 179)(line_width 3))
+		(line (pt 124 108)(pt 124 179)(line_width 3))
+		(line (pt 169 108)(pt 169 179)(line_width 3))
+		(line (pt 213 108)(pt 213 179)(line_width 1))
+		(line (pt 56 56)(pt 256 56)(line_width 1))
+		(line (pt 256 56)(pt 256 200)(line_width 1))
+		(line (pt 56 200)(pt 256 200)(line_width 1))
+		(line (pt 56 56)(pt 56 200)(line_width 1))
+	)
+)

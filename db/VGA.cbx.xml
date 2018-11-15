@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="VGA">
+		<CBX_INST_ENTRY INSTANCE_NAME="|gold|GG:inst4|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_3t81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|gold|ROM_G:inst6|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_i291.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|gold|control:inst10|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[1]" CBX_FILE_NAME="add_sub_cfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|gold|ROM_B:inst8|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_4ja1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|gold|control:inst10|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_gfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|gold|control:inst10|lpm_mult:Mult2|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_dfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|gold|ROM_BEGIN:inst2|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_8791.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|gold|control:inst10|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_7gm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|gold|SCORE:inst9|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_df91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|gold|WIN:inst7|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_kv81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|gold|control:inst10|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_a8m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|gold|control:inst10|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_cfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|gold|control:inst10|lpm_mult:Mult2|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_hfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|gold|pll:inst3|altpll:altpll_component" CBX_FILE_NAME="pll_altpll.v"/>
+	</PROJECT>
+</LOG_ROOT>
